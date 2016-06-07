@@ -1,0 +1,200 @@
+		#newlife_1st_bg{
+			background-image: url("C:/xampp/htdocs/Responsive Exam/exam/img/background/002.png");
+			height: 30px;
+		}
+@media screen and (min-width: 768px){
+		#img1{
+			margin: 20px -2%;
+			float: left;
+		}
+		#img2{
+			margin: -13px 4%;
+			float: right;
+		}
+		#newlife_container{
+			background-image: url("C:/xampp/htdocs/Responsive Exam/exam/img/background/004.png");
+			margin: -6px 0;
+			padding-bottom: 40px;
+			margin-bottom: 10px;
+		}
+		#newlife_2nd_container{
+			background-image: url("C:/xampp/htdocs/Responsive Exam/exam/img/background/001.png") no-repeat,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/background/003.png");
+			background-size: 372px auto, 100% auto;
+			background-position: 5.6% 0, 0 0;
+			width: 95%;
+			margin: auto;
+			padding-bottom: 35px;
+
+		}
+		#newlife_2nd_container ul{
+			display: table;
+			width: 95%;
+			margin: auto;
+		}
+		#newlife_2nd_container ul li{
+			display: table-cell;
+			width: 25%;
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y;
+			text-align: center;
+		}
+		#newlife_2nd_container .title{
+			text-shadow: -1px -1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff, 1px 1px #ffffff, 3px 3px rgba(0,0,0,0.1);
+			font-weight: bold;
+			text-align: center;
+			font-size: 15px;
+		}
+		#newlife_2nd_container .desc{
+			width: 84%;
+			margin-top: 6px;
+			padding: 0 9%;
+		}
+		.banner {
+			text-align: center;
+		}
+		.banner img{
+			width: 90%;
+		}
+		#newlife_2nd_container table{
+			width: 90%;
+			margin: -2.3% auto;
+		}
+		#newlife_2nd_container table td{
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x;
+			padding: 5% 0;
+			position: relative;
+		}
+		#newlife_2nd_container table td.two{
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y right;
+		}
+		#newlife_2nd_container table td.three{
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x bottom;
+		}
+		#newlife_2nd_container table td.four{
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y right,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x bottom;
+		}
+		.balloon {
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/item/005.png") no-repeat;
+			height: 110px;
+			width: 115px;
+			text-align: center;
+			padding: 5px 0 5px 0;
+			z-index: 1;
+			position: absolute;
+			top: -20px;
+			right: -20px;
+		}
+		#newlife_2nd_container table td center{
+			width: 80%;
+			position: relative;
+			margin: auto;
+		}
+		#newlife_2nd_container table td center img{
+			border: 4px solid #ffffff;
+			border-radius: 2px;
+			box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.1);
+			top: 0;
+			left: 0;
+			width: 95%;
+		}
+
+
+
+
+}
+@media screen and (max-width: 768px){
+	.banner img{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		#img3 {
+			margin-bottom: 80px;
+		}
+	
+}
+@media screen and (max-width: 480px){
+			#img1{
+			margin: 20px 0 0 0;
+			width: 100%;
+
+		}
+		#img2{
+			width: 80%;
+		}
+		#newlife_container{
+			background-image: url("C:/xampp/htdocs/Responsive Exam/exam/img/background/004.png");
+			margin: -6px 0;
+			padding-bottom: 40px;
+			margin-bottom: 10px;
+		}
+		#newlife_2nd_container{
+			background-image: url("C:/xampp/htdocs/Responsive Exam/exam/img/background/001.png") no-repeat,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/background/003.png");
+			background-size: 372px auto, 100% auto;
+			background-position: 5.6% 0, 0 0;
+			width: 95%;
+			margin: auto;
+			padding-bottom: 35px;
+
+		}
+		#newlife_2nd_container ul li{
+			padding: 5% 0;
+			text-align: center;
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y;
+		}
+		#newlife_2nd_container table td{
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y right;
+			padding: 5% 0;
+			position: relative;
+			display: block;
+		}
+		#newlife_2nd_container table td.four{
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/001.png") repeat-y right,
+			url("C:/xampp/htdocs/Responsive Exam/exam/img/border/002.png") repeat-x bottom;
+		}
+		#newlife_2nd_container .title{
+			text-shadow: -1px -1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff, 1px 1px #ffffff, 3px 3px rgba(0,0,0,0.1);
+			font-weight: bold;
+			text-align: center;
+			font-size: 15px;
+		}
+		.banner {
+			text-align: center;
+		}
+
+		#newlife_2nd_container table{
+			width: 90%;
+			margin: -2.3% auto;
+		}
+		.balloon {
+			background: url("C:/xampp/htdocs/Responsive Exam/exam/img/item/005.png") no-repeat;
+			height: 110px;
+			width: 115px;
+			text-align: center;
+			padding: 5px 0 5px 0;
+			z-index: 1;
+			position: absolute;
+			top: -20px;
+			right: -20px;
+		}
+		
+}
+@media screen and (min-width: 320px) and (max-width: 380px){
+		
+		#img2{
+			margin: 0 9px 0 0;
+			
+		}
+}
